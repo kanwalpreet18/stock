@@ -226,6 +226,9 @@ MakeCharts <- function(stock.code){
              col = candlecolors.normal, minor.ticks = FALSE)
     lines(EMA(volume$volume/1000, 10), col = "black")
     title(main = stock.id, outer = T)
+    
+    print(p)
+    p
 #    dev.off()
 }
 

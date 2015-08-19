@@ -244,6 +244,7 @@ shinyServer(function(input, output) {
                                         #     re-executed when inputs change
                                         #  2) Its output type is a plot
                                         #
+                print(input$obs)
                 output$plot <- renderPlot({
 
                                         # generate an rnorm distribution and plot it

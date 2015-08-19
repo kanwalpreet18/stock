@@ -228,7 +228,7 @@ MakeCharts <- function(stock.code){
     title(main = stock.id, outer = T)
     
     print(p)
-    p
+    
 #    dev.off()
 }
 
